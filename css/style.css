@@ -1,0 +1,55 @@
+:root {
+    --amarelo: #FEC63E;
+    --preto: #000;
+    --branco: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul {
+	font-size: 1em;
+	font-weight: normal;
+}
+
+header {
+    height: 80px;
+    background-color: var(--amarelo);
+}
+
+.logo-bikcraft {
+    padding-top: 9px;
+}
+
+.nav-bar {
+    margin-left: 490px;
+    padding-top: 32px;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin-left: 12px;
+}
+
+.nav-bar a{
+    font: bold 14px Arial, Helvetica, sans-serif;
+    color: var(--preto);
+    letter-spacing: 10%;
+    text-transform: uppercase;
+}
+
+.nav-bar a:hover {
+    color: var(--branco);
+    transition-duration: 0.3s;
+}
