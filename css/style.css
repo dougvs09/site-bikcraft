@@ -23,32 +23,34 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 	font-weight: normal;
 }
 
-header {
-    height: 80px;
+.header {
+    width: 100%;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    z-index: 1;
     background-color: var(--amarelo);
 }
 
-.logo-bikcraft {
-    padding-top: 9px;
+.menu_items {
+   text-align: right;
+   margin-top: 23px;
 }
 
-.menu-items {
-    padding: 32px 0 0 249px;
-}
-
-.menu-items li {
+.menu_items li {
     display: inline-block;
     margin-left: 30px;
 }
 
-.menu-items a{
+.menu_items a{
     font: bold 14px Arial, Helvetica, sans-serif;
     color: var(--preto);
     text-transform: uppercase;
     letter-spacing: .1em;
+    padding: 10px 0;
 }
 
-.menu-items a:hover {
+.menu_items a:hover {
     color: var(--branco);
     transition-duration: 0.3s;
 }
@@ -56,37 +58,34 @@ header {
 .introducao {
     width: 100%;
     height: 380px;
-    background-image: url(/img/bg-header-home.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-.introducao {
+    background: url(/img/bg-header-home.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: 96px;
     text-align: center;
 }
 
 .introducao h1 {
     font: bold 48px Arial, Helvetica, sans-serif;
     line-height: 60px;
-    letter-spacing: 1px;
     text-transform: uppercase;
     color: var(--branco);
     margin: 76px 0 0 0;
 }
 
-.introducao blockquote {
-    width: 300px;
+.quote {
+    max-width: 350px;
     margin: 0 auto;
     margin-bottom: 40px;
 }
 
-.introducao p{
-    font: italic 14px Georgiaç, 'Times New Roman', Times, serif;
+.quote p{
+    font: italic 14px Georgia, 'Times New Roman', Times, serif;
     line-height: 20px;
+    letter-spacing: .1em;
     color: var(--branco);
 }
 
-.introducao p:before {
+.quote p:before,.quote p:after  {
     content: "";
     display: block;
     width: 60px;
@@ -95,29 +94,116 @@ header {
     margin: 15px auto 15px auto;
 }
 
-.introducao p:after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 3px;
-    background-color: var(--branco);
-    margin: 15px auto 15px auto;
-}
-
-.introducao cite {
+.quote cite {
     font: bold normal 14px Arial, Helvetica, sans-serif;
     line-height: 20px;
+    letter-spacing: .1em;
     color: var(--branco);
     text-transform: uppercase;
 }
 
-.button {
+.button_orcamento {
     border: 3px solid var(--amarelo);
     padding: 10px 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight: bold;
+    font: bold 14px Arial, Helvetica, sans-serif;
+    letter-spacing: .1em;
     text-transform: uppercase;
     line-height: 20px;
     color: var(--amarelo);
+}
+
+.button_orcamento:hover {
+    color: var(--branco);
+    border-color: var(--branco);
+    transition: 0.3s;
+}
+
+.produtos {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.produtos h2 {
+    font: bold 24px Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.produtos h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--preto);
+    margin: 15px auto 15px auto;
+}
+
+.container_produtos {
+    height: 320px;
+    margin: 40px 0px 30px 0px;
+}
+
+.container_produtos a {
+    color: var(--preto);
+}
+
+.produto_passeio, .produto_esporte, .produto_retro {
+    height: 200px;
+    background-color: var(--preto);
+}
+
+.produto_passeio img, .produto_esporte img, .produto_retro img {
+    padding: 30px 50px;
+}
+
+.produto_passeio_descricao, .produto_esporte_descricao, .produto_retro_descricao {
+    height: 120px;
+    background-color: var(--amarelo);
+}
+
+.produto_passeio_descricao h3, .produto_esporte_descricao h3, .produto_retro_descricao h3 {
+    font: bold 18px Arial, Helvetica, sans-serif;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+.produto_passeio_descricao h3::after, .produto_esporte_descricao h3::after, .produto_retro_descricao h3::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--preto);
+    margin: 10px auto 15px auto;
+}
+
+.produto_passeio_descricao p, .produto_esporte_descricao p, .produto_retro_descricao p {
+    display: block;
+    max-width: 280px;
+    margin: 0 auto;
+    font: 14px Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+}
+
+.produtos p {
+    font: 14px Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.button_produtos {
+    border: 3px solid var(--amarelo);
+    padding: 10px 30px;
+    font: bold 14px Arial, Helvetica, sans-serif;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    line-height: 20px;
+    color: var(--amarelo);
+}
+
+.button_produtos:hover {
+    color: var(--preto);
+    border-color: var(--preto);
+    transition: 0.3s;
 }
