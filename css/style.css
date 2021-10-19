@@ -32,24 +32,92 @@ header {
     padding-top: 9px;
 }
 
-.nav-bar {
-    margin-left: 490px;
-    padding-top: 32px;
+.menu-items {
+    padding: 32px 0 0 249px;
 }
 
-.nav-bar li {
+.menu-items li {
     display: inline-block;
-    margin-left: 12px;
+    margin-left: 30px;
 }
 
-.nav-bar a{
+.menu-items a{
     font: bold 14px Arial, Helvetica, sans-serif;
     color: var(--preto);
-    letter-spacing: 10%;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.menu-items a:hover {
+    color: var(--branco);
+    transition-duration: 0.3s;
+}
+
+.introducao {
+    width: 100%;
+    height: 380px;
+    background-image: url(/img/bg-header-home.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.introducao {
+    text-align: center;
+}
+
+.introducao h1 {
+    font: bold 48px Arial, Helvetica, sans-serif;
+    line-height: 60px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--branco);
+    margin: 76px 0 0 0;
+}
+
+.introducao blockquote {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.introducao p{
+    font: italic 14px Georgiaç, 'Times New Roman', Times, serif;
+    line-height: 20px;
+    color: var(--branco);
+}
+
+.introducao p:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--branco);
+    margin: 15px auto 15px auto;
+}
+
+.introducao p:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--branco);
+    margin: 15px auto 15px auto;
+}
+
+.introducao cite {
+    font: bold normal 14px Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    color: var(--branco);
     text-transform: uppercase;
 }
 
-.nav-bar a:hover {
-    color: var(--branco);
-    transition-duration: 0.3s;
+.button {
+    border: 3px solid var(--amarelo);
+    padding: 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 20px;
+    color: var(--amarelo);
 }
