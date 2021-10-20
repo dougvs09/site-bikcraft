@@ -23,6 +23,29 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
 	font-weight: normal;
 }
 
+.subtitulo {
+    font: bold 24px Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.subtitulo::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--preto);
+    margin: 15px auto 15px auto;
+}
+
+.call_to_action {
+    font: 14px Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+    margin-bottom: 25px;
+    clear: both;
+}
+
 .header {
     width: 100%;
     padding: 15px 0;
@@ -123,25 +146,16 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     margin-top: 60px;
 }
 
-.produtos h2 {
-    font: bold 24px Arial, Helvetica, sans-serif;
-    line-height: 30px;
-    letter-spacing: .1em;
-    text-transform: uppercase;
+.produtos .subtitulo {
+    color: var(--preto);
 }
 
-.produtos h2::after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 3px;
+.produtos .subtitulo::after {
     background-color: var(--preto);
-    margin: 15px auto 15px auto;
 }
 
 .container_produtos {
-    height: 320px;
-    margin: 40px 0px 30px 0px;
+    margin-top: 40px;
 }
 
 .container_produtos a {
@@ -186,10 +200,9 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     line-height: 20px;
 }
 
-.produtos p {
-    font: 14px Georgia, 'Times New Roman', Times, serif;
-    line-height: 20px;
-    margin-bottom: 25px;
+.produtos .call_to_action {
+    color: var(--preto);
+    padding-top: 20px;
 }
 
 .button_produtos {
@@ -216,21 +229,13 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     text-align: center;
 }
 
-.portfolio h2 {
-    font: bold 24px Arial, Helvetica, sans-serif;
-    line-height: 30px;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-    color: var(--branco);
+.portfolio .subtitulo {
+    color: var(--amarelo);
     padding-top: 20px;
 }
 
-.portfolio h2:after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 3px;
-    background-color: var(--branco);
+.portfolio .subtitulo::after {
+    background-color: var(--amarelo);
     margin: 15px auto 30px auto;
 }
 
@@ -238,12 +243,8 @@ h1, h2, h3, h4, h5, h6, p, a, ul {
     margin-top: 15px;
 }
 
-.portfolio p {
-    font: 14px Georgia, 'Times New Roman', Times, serif;
-    line-height: 20px;
-    margin-bottom: 25px;
+.portfolio .call_to_action {
     color: var(--branco);
-    clear: both;
     padding-top: 20px;
 }
 
