@@ -366,6 +366,11 @@ img {
     color: var(--branco);
 }
 
+.footer_information p:nth-child(2) {
+    display: block;
+    width: 394px;
+}
+
 #phone::before {
     content: url(../img/icone-telefone.svg);
     margin-right: 10px;
