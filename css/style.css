@@ -131,14 +131,14 @@ img {
 }
 
 /*INTRODUÇÃO INTERNA*/
-.introduction_interna {
+.internal_introduction {
     width: 100%;
     height: 140px;
     margin-top: 92px;
     text-align: center;
 }
 
-.introduction_interna h1 {
+.internal_introduction h1 {
     font: bold 36px Arial, Helvetica, sans-serif;
     line-height: 40px;
     text-transform: uppercase;
@@ -146,7 +146,7 @@ img {
     padding-top: 30px;
 }
 
-.introduction_interna h1::after {
+.internal_introduction h1::after {
     content: "";
     display: block;
     width: 60px;
@@ -155,7 +155,7 @@ img {
     margin: 5px auto 5px auto;
 }
 
-.introduction_interna p {
+.internal_introduction p {
     font: 14px Georgia, 'Times New Roman', Times, serif;
     line-height: 20px;
     color: var(--branco);
@@ -389,16 +389,19 @@ img {
 #phone::before {
     content: url(../img/icone-telefone.svg);
     margin-right: 10px;
+    vertical-align: middle;
 }
 
 #email::before {
     content: url(../img/icone-email.svg);
     margin-right: 10px;
+    vertical-align: middle;
 }
 
 #address::before {
     content: url(../img/icone-endereco.svg);
     margin-right: 10px;
+    vertical-align: middle;
 }
 
 .social_list li{

@@ -12,11 +12,12 @@ img {
     color: var(--branco);
 }
 
-.introduction_interna {
+.internal_introduction {
     background: url(../img/bg-header-produtos.jpg) no-repeat center;
     background-size: cover;
 }
 
+/*PRODUTOS*/
 .internal_products {
     margin-top: 60px;
 }
@@ -62,28 +63,114 @@ img {
     padding: 50px 40px;
 }
 
+/*ORÇAMENTO*/
 .budget {
     height: 600px;
     background-color: var(--preto);
 }
 
-form {
-    margin-top: 100px;
+.budget .subtitle {
+    color: var(--amarelo);
+    text-align: center;
+    margin-top: 16px
 }
 
-input {
+.budget .subtitle::after {
+    background-color: var(--amarelo);
+    margin: 10px auto 10px auto;
+}
+
+.form {
+    margin-top: 40px;
+}
+
+.form label {
+    display: block;
+    color: var(--branco);
+    font: 18px Georgia, "Times New Roman", Times, serif;
+    line-height: 25px;
+}
+
+.form input {
     width: 100%;
     display: block;
     background: none;
-    border: 3px solid var(--amarelo);
+    border: 4px solid var(--amarelo);
     border-radius: 10px;
     margin-bottom: 10px;
     padding: 10px 7px;
     outline: none;
+    color: var(--branco);
 }
 
-label {
-    display: block;
+.form textarea {
+    background: none;
+    width: 100%;
+    height: 130px;
     color: var(--branco);
-    font: 14px Georgia, "Times New Roman", Times, serif;
+    border: 4px solid var(--amarelo);
+    border-radius: 10px;
+    resize: none;
+}
+
+.form button {
+    border: 3px solid var(--amarelo);
+    padding: 10px 30px;
+    font: bold 14px Arial, Helvetica, sans-serif;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    line-height: 20px;
+    color: var(--preto);
+    background-color: var(--amarelo);
+    border-radius: 10px;
+    margin-top: 5px;
+    float: right;
+}
+
+.data_information {
+    margin-left: 130px;
+}
+
+.data_information h3 {
+    font: normal bold 18px Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--amarelo);
+    margin: 40px 0 10px 0;
+}
+
+.data_information p {
+    font: normal 14px Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+    color: var(--branco);
+}
+
+#phone, #email {
+    font: normal 18px Georgia, 'Times New Roman', Times, serif;
+}
+
+.data_information p:before {
+    vertical-align: middle;
+}
+
+.data_information p:nth-child(3) {
+    padding-bottom: 5px;
+}
+
+.data_information ul li:nth-child(odd) {
+    background-color: grey;
+}
+
+.data_information ul li {
+    color: var(--branco);
+    font:14px Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.data_information li:before {
+    content: "-";
+    vertical-align: middle;
+    color: var(--branco);
+    padding-right: 5px;
 }

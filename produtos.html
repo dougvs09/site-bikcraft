@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/produtos.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container menu">
@@ -36,7 +38,7 @@
             </nav>
         </div>
     </header>
-    <section class="introduction_interna">
+    <section class="internal_introduction">
         <div class="container">
             <h1>Produtos</h1>
             <p>Conhecça nossos produtos!</p>
@@ -70,21 +72,75 @@
     </section>
     <section class="budget">
         <div class="container">
-            <div class="grid-7">
-                <form action="send" method="post">
-                        <label for="name">Nome</label>
-                        <input type="text" id="name" required>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" required>
-                        <label for="phone">Telefone</label>
-                        <input type="number" id="phone" required>
-                        <label for="message">Mensagem</label>
-                        <textarea name="message" id="message" cols="1" rows="2"></textarea>
+            <h2 class="subtitle">Orçamento</h2>
+                <form id="form_budget" class="grid-7 form">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" required>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" required>
+                    <label for="phone">Telefone</label>
+                    <input type="text" id="phone" required>
+                    <label for="message">Especificações</label>
+                    <textarea name="message" id="message"></textarea>
+                    <button type="submit">Enviar</button>
                 </form>
-            </div>
-            <div class="grid-7">
+            <div class="grid-7 data_information">
+                <address>
+                    <h3>Dados</h3>
+                    <p id="phone">99 99999-9999</p>
+                    <p id="email">contato@gmail.com</p>
+                </address>
+                <h3>Monte sua bikcraft</h3>
+                <p>Escolha as especificações</p>
+                <ul>
+                    <li>Cores</li>
+                    <li>Estilo</li>
+                    <li>Acessórios</li>
+                    <li>Medidas</li>
+                    <li>E outros</li>
+                </ul>
             </div>
         </div>
     </section>
+    <section class="blockquote">
+        <blockquote class="quote">
+            <p>“O verdadeiro segredo da felicidade está em ter um genuinio interesse por todos os detalhes da vida cotidiana”</p>
+            <cite>William Morris</cite>
+        </blockquote>
+    </section>
+    <footer>
+        <section class="footer_information">
+            <div class="container">
+                <ul class="information_list">
+                    <li class="grid-8">
+                        <h3>Nossa história</h3>
+                        <p>Quando iniciamos a Bikcraft queriamos apenas um produto que adoraríamos utilizar. Eramos apaixonados por pedalar e também por fazer as coisas com as nossas próprias mãos. Assim surgiu um sonho na garagem da nossa casa.</p>
+                    </li>
+                    <li class="grid-4">
+                        <address>
+                            <h3>Contato</h3>
+                            <p id="phone">99 99999-9999</p>
+                            <p id="email">contato@gmail.com</p>
+                            <p id="address">Porto Alegre - RS</p>
+                        </address>
+                    </li>
+                    <li class="grid-4">
+                        <h3>Redes sociais</h3>
+                        <ul class="social_list">
+                            <li><a href="#" target="_blank"><img src="img/icone-instagram.svg" alt="ícone instagram"></a></li>
+                            <li><a href="#" target="_blank"><img src="img/icone-facebook.svg" alt="ícone facebook"></a></li>
+                            <li><a href="#" target="_blank"><img src="img/icone-twitter.svg" alt="ícone twitter"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="copyright">
+            <div class="container">
+                <p class="grid-16">Bikcraft 2021 - Todos os direitos reservados</p>
+            </div>
+        </section>
+    </footer>
 </body>
+
 </html>

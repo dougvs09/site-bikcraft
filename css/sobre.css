@@ -13,11 +13,12 @@ img {
     color: var(--branco);
 }
 
-.introduction_interna {
+.internal_introduction {
     background: url(../img/bg-header-sobre.jpg) no-repeat center;
     background-size: cover;
 }
 
+/*SOBRE*/
 .history {
     height: 300px;
     margin-top: 60px;
