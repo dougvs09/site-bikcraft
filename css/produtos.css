@@ -1,0 +1,89 @@
+:root {
+    --amarelo: #FEC63E;
+    --preto: #000;
+    --branco: #fff;
+}
+
+img {
+    display: block;
+}
+
+.menu_items .active {
+    color: var(--branco);
+}
+
+.introduction_interna {
+    background: url(../img/bg-header-produtos.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.internal_products {
+    margin-top: 60px;
+}
+
+.internal_product_tour {
+    margin-bottom: 60px;
+}
+
+.internal_product_sport {
+    margin-bottom: 60px;
+}
+
+.internal_product_retro {
+    margin-bottom: 60px;
+}
+
+.product_name {
+    height: 250px;
+    background-color: var(--amarelo);
+}
+
+.product_name h2 {
+    font: bold 36px Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    letter-spacing: .1em;
+    text-align: center;
+    padding-top: 80px;
+    text-transform: uppercase;
+}
+
+.product_name h2::after, h2:before {
+    content: " ";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--preto);
+    margin: 10px auto 10px auto;
+}
+
+.product_icon {
+    height: 250px;
+    background-color: var(--preto);
+    padding: 50px 40px;
+}
+
+.budget {
+    height: 600px;
+    background-color: var(--preto);
+}
+
+form {
+    margin-top: 100px;
+}
+
+input {
+    width: 100%;
+    display: block;
+    background: none;
+    border: 3px solid var(--amarelo);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px 7px;
+    outline: none;
+}
+
+label {
+    display: block;
+    color: var(--branco);
+    font: 14px Georgia, "Times New Roman", Times, serif;
+}
