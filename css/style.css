@@ -1,3 +1,4 @@
+/*CONFIGURAÇÕES GERAIS*/
 :root {
     --amarelo: #FEC63E;
     --preto: #000;
@@ -32,6 +33,7 @@ img {
     clear: both;
 }
 
+/*HEADER*/
 .header {
     width: 100%;
     padding: 15px 0;
@@ -73,6 +75,7 @@ img {
     text-align: center;
 }
 
+/*INTRODUÇÃO*/
 .introduction h1 {
     font: bold 48px Arial, Helvetica, sans-serif;
     line-height: 60px;
@@ -127,6 +130,38 @@ img {
     transition: 0.3s;
 }
 
+/*INTRODUÇÃO INTERNA*/
+.introduction_interna {
+    width: 100%;
+    height: 140px;
+    margin-top: 92px;
+    text-align: center;
+}
+
+.introduction_interna h1 {
+    font: bold 36px Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: var(--branco);
+    padding-top: 30px;
+}
+
+.introduction_interna h1::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--branco);
+    margin: 5px auto 5px auto;
+}
+
+.introduction_interna p {
+    font: 14px Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+    color: var(--branco);
+}
+
+/*PRODUTOS*/
 .products {
     text-align: center;
     margin-top: 60px;
@@ -201,6 +236,7 @@ img {
     transition: 0.3s;
 }
 
+/*PORTFÓLIO*/
 .portfolio {
     width: 100%;
     height: 820px;
@@ -244,6 +280,7 @@ img {
     transition: 0.3s;
 }
 
+/*QUALIDADE*/
 .quality {
     text-align: center;
     margin-top: 60px;
@@ -302,6 +339,7 @@ img {
     transition: 0.3s;
 }
 
+/*FOOTER*/
 .blockquote {
     height: 220px;
     background: url(../img/bg-footer.png) no-repeat center;
