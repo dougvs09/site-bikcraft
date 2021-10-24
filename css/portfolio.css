@@ -1,0 +1,45 @@
+:root {
+    --amarelo: #FEC63E;
+    --preto: #000;
+    --branco: #fff;
+}
+
+img {
+    display: block;
+}
+
+.menu_items .active {
+    color: var(--branco);
+}
+
+.internal_introduction {
+    background: url(../img/bg-header-portfolio.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.clients_quotes {
+    width: 460px;
+    text-align: right;
+    margin-top: 60px;
+}
+
+.clients_quotes p {
+    font: italic 18px Georgia, 'Times New Roman', Times, serif;
+    line-height: 25px;
+    text-align: center;
+}
+
+.clients_quotes cite {
+    font: normal bold 18px Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    padding: 10px;
+    display: block;
+}
+
+.portfolio {
+    height: 700px;
+}
+
+.pictures_list {
+    margin-top: 40px;
+}
