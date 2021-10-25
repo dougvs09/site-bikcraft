@@ -1,66 +1,66 @@
 :root {
-    --amarelo: #FEC63E;
-    --preto: #000;
-    --branco: #fff;
+	--amarelo: #FEC63E;
+	--preto: #000;
+	--branco: #fff;
 }
 
 img {
-    display: block;
+	display: block;
 }
 
 
 .menu_items .active {
-    color: var(--branco);
+	color: var(--branco);
 }
 
 .internal_introduction {
-    background: url(../img/bg-header-sobre.jpg) no-repeat center;
-    background-size: cover;
+	background: url(../img/bg-header-sobre.jpg) no-repeat center;
+	background-size: cover;
 }
 
 /*SOBRE*/
 .history {
-    height: 300px;
-    margin-top: 60px;
+	height: 300px;
+	margin-top: 60px;
 }
 
 .history .subtitle:after {
-    margin: 10px 0 15px 0;
+	margin: 10px 0 15px 0;
 }
 
 .history p {
-    font: 18px Georgia, 'Times New Roman', Times, serif;
-    line-height: 25px;
-    margin-bottom: 1em;
+	font: 18px Georgia, 'Times New Roman', Times, serif;
+	line-height: 25px;
+	margin-bottom: 1em;
 }
 
 .values {
-    height: 300px;
-    margin-top: 20px;
+	height: 300px;
+	margin-top: 20px;
 }
 
 .values .subtitle {
-    text-align: right;
+	text-align: right;
 }
 
 .values .subtitle::after {
-    margin: 10px 0 15px auto;
+	margin: 10px 0 15px auto;
 }
 
 .values ul {
-    font: 18px Georgia, 'Times New Roman', Times, serif ;
-    line-height: 25px;
+	font: 18px Georgia, 'Times New Roman', Times, serif;
+	line-height: 25px;
 }
 
 .values ul {
-    text-align: right;
+	text-align: right;
 }
 
 .values li::before {
-    content: url(../img/right-arrow.svg);
-    vertical-align: middle;
+	content: url(../img/right-arrow.svg);
+	vertical-align: middle;
 }
 
 .quality img:nth-child(2) {
-    margin-top: -38px;
+	margin-top: -38px;
 }

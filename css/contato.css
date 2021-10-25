@@ -1,113 +1,113 @@
 :root {
- --amarelo: #FEC63E;
- --preto: #000;
- --branco: #fff;
+  --amarelo: #FEC63E;
+  --preto: #000;
+  --branco: #fff;
 }
 
 img {
- display: block;
+  display: block;
 }
 
 .menu_items .active {
- color: var(--branco);
+  color: var(--branco);
 }
 
 .internal_introduction {
- background: url(../img/bg-header-contato.jpg) no-repeat center;
- background-size: cover;
+  background: url(../img/bg-header-contato.jpg) no-repeat center;
+  background-size: cover;
 }
 
 .form {
- margin-top: 60px;
+  margin-top: 60px;
 }
 
 .form label {
- display: block;
- color: var(--preto);
- font: 18px Georgia, "Times New Roman", Times, serif;
- line-height: 25px;
+  display: block;
+  color: var(--preto);
+  font: 18px Georgia, "Times New Roman", Times, serif;
+  line-height: 25px;
 }
 
 .form input {
- width: 100%;
- display: block;
- background: none;
- border: 4px solid var(--amarelo);
- border-radius: 10px;
- margin-bottom: 10px;
- padding: 10px 7px;
- outline: none;
- color: var(--preto);
+  width: 100%;
+  display: block;
+  background: none;
+  border: 4px solid var(--amarelo);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px 7px;
+  outline: none;
+  color: var(--preto);
 }
 
 .form textarea {
- background: none;
- width: 100%;
- height: 130px;
- color: var(--preto);
- border: 4px solid var(--amarelo);
- border-radius: 10px;
- resize: none;
+  background: none;
+  width: 100%;
+  height: 130px;
+  color: var(--preto);
+  border: 4px solid var(--amarelo);
+  border-radius: 10px;
+  resize: none;
 }
 
 .form button {
- border: 3px solid var(--amarelo);
- padding: 10px 30px;
- font: bold 14px Arial, Helvetica, sans-serif;
- letter-spacing: .1em;
- text-transform: uppercase;
- line-height: 20px;
- color: var(--preto);
- background-color: var(--amarelo);
- border-radius: 10px;
- margin-top: 5px;
- float: right;
+  border: 3px solid var(--amarelo);
+  padding: 10px 30px;
+  font: bold 14px Arial, Helvetica, sans-serif;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  line-height: 20px;
+  color: var(--preto);
+  background-color: var(--amarelo);
+  border-radius: 10px;
+  margin-top: 5px;
+  float: right;
 }
 
 .contact {
- margin-left: 130px;
- margin-top: 60px;
+  margin-left: 130px;
+  margin-top: 60px;
 }
 
 .contact h3 {
- font: bold 18px Arial, Helvetica, sans-serif;
- line-height: 25px;
- text-transform: uppercase;
- margin-bottom: 10px;
+  font: bold 18px Arial, Helvetica, sans-serif;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 address {
- font: 18px Georgia, 'Times New Roman', Times, serif;
- line-height: 20px;
+  font: 18px Georgia, 'Times New Roman', Times, serif;
+  line-height: 20px;
 }
 
 #phone_contact::before {
- content: url(../img/icone-telefone-black.svg);
- margin-right: 10px;
- vertical-align: middle;
+  content: url(../img/icone-telefone-black.svg);
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 #email_contact::before {
- content: url(../img/icone-email-black.svg);
- margin-right: 10px;
- vertical-align: middle;
+  content: url(../img/icone-email-black.svg);
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 #address_contact::before {
- content: url(../img/icone-endereco-black.svg);
- margin-right: 10px;
- vertical-align: middle;
+  content: url(../img/icone-endereco-black.svg);
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 #address_contact {
- margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
-.redes_sociais li{
- display: inline-block;
- margin-right: 15px;
+.redes_sociais li {
+  display: inline-block;
+  margin-right: 15px;
 }
 
 .mapa {
- margin-top: 60px;
+  margin-top: 60px;
 }
