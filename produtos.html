@@ -2,145 +2,148 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bikcraft - Produtos</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/produtos.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bikcraft - Produtos</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/produtos.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="container menu">
-            <div class="grid-4 logo_bikcraft">
-                <a href="index.html" target="_self">
-                    <img src="img/logo-bikcraft.svg" alt="logo bikcraft">
-                </a>
-            </div>
-            <nav class="grid-12 menu_items">
-                <ul>
-                    <li>
-                        <a href="sobre.html" target="_self">Sobre</a>
-                    </li>
-                    <li>
-                        <a class="active" href="produtos.html" target="_self">Produtos</a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html" target="_self">Portfólio</a>
-                    </li>
-                    <li>
-                        <a href="#" target="_self">Contato</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <section class="internal_introduction">
-        <div class="container">
-            <h1>Produtos</h1>
-            <p>Conhecça nossos produtos!</p>
-        </div>
+  <header class="header">
+    <div class="container menu">
+      <div class="grid-4 logo_bikcraft">
+        <a href="index.html" target="_self">
+          <img src="img/logo-bikcraft.svg" alt="logo bikcraft">
+        </a>
+      </div>
+      <nav class="grid-12 menu_items">
+        <ul>
+          <li>
+            <a href="sobre.html" target="_self">Sobre</a>
+          </li>
+          <li>
+            <a class="active" href="produtos.html" target="_self">Produtos</a>
+          </li>
+          <li>
+            <a href="portfolio.html" target="_self">Portfólio</a>
+          </li>
+          <li>
+            <a href="contato.html" target="_self">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="internal_introduction">
+    <div class="container">
+      <h1>Produtos</h1>
+      <p>Conhecça nossos produtos!</p>
+    </div>
+  </section>
+  <section class="internal_products">
+    <div class="container internal_product_tour">
+      <div class="grid-11 product_name">
+        <h2>Passeio</h2>
+      </div>
+      <div class="grid-5 product_icon">
+        <img src="img/icone-passeio.svg" alt="ícone passeio">
+      </div>
+    </div>
+    <div class="container internal_product_sport">
+      <div class="grid-11 product_name">
+        <h2>Esporte</h2>
+      </div>
+      <div class="grid-5 product_icon">
+        <img src="img/icone-esporte.svg" alt="ícone esporte">
+      </div>
+    </div>
+    <div class="container internal_product_retro">
+      <div class="grid-11 product_name">
+        <h2>Retrô</h2>
+      </div>
+      <div class="grid-5 product_icon">
+        <img src="img/icone-retro.svg" alt="ícone retrô">
+      </div>
+    </div>
+  </section>
+  <section class="budget">
+    <div class="container">
+      <h2 class="subtitle">Orçamento</h2>
+      <form id="form_budget" class="grid-7 form">
+        <label for="name">Nome</label>
+        <input type="text" id="name" required>
+        <label for="email">Email</label>
+        <input type="text" id="email" required>
+        <label for="phone">Telefone</label>
+        <input type="text" id="phone" required>
+        <label for="message">Especificações</label>
+        <textarea name="message" id="message"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <div class="grid-7 data_information">
+        <address>
+          <h3>Dados</h3>
+          <p id="phone">99 99999-9999</p>
+          <p id="email">contato@gmail.com</p>
+        </address>
+        <h3>Monte sua bikcraft</h3>
+        <p>Escolha as especificações</p>
+        <ul>
+          <li>Cores</li>
+          <li>Estilo</li>
+          <li>Acessórios</li>
+          <li>Medidas</li>
+          <li>E outros</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="blockquote">
+    <blockquote class="quote">
+      <p>“O verdadeiro segredo da felicidade está em ter um genuinio interesse por todos os detalhes da vida cotidiana”
+      </p>
+      <cite>William Morris</cite>
+    </blockquote>
+  </section>
+  <footer>
+    <section class="footer_information">
+      <div class="container">
+        <ul class="information_list">
+          <li class="grid-8">
+            <h3>Nossa história</h3>
+            <p>Quando iniciamos a Bikcraft queriamos apenas um produto que adoraríamos utilizar. Eramos apaixonados por
+              pedalar e também por fazer as coisas com as nossas próprias mãos. Assim surgiu um sonho na garagem da
+              nossa casa.</p>
+          </li>
+          <li class="grid-4">
+            <address>
+              <h3>Contato</h3>
+              <p id="phone">99 99999-9999</p>
+              <p id="email">contato@gmail.com</p>
+              <p id="address">Porto Alegre - RS</p>
+            </address>
+          </li>
+          <li class="grid-4">
+            <h3>Redes sociais</h3>
+            <ul class="social_list">
+              <li><a href="#" target="_blank"><img src="img/icone-instagram.svg" alt="ícone instagram"></a></li>
+              <li><a href="#" target="_blank"><img src="img/icone-facebook.svg" alt="ícone facebook"></a></li>
+              <li><a href="#" target="_blank"><img src="img/icone-twitter.svg" alt="ícone twitter"></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </section>
-    <section class="internal_products">
-        <div class="container internal_product_tour">
-            <div class="grid-11 product_name">
-                <h2>Passeio</h2>
-            </div>
-            <div class="grid-5 product_icon">
-                <img src="img/icone-passeio.svg" alt="ícone passeio">
-            </div>
-        </div>
-        <div class="container internal_product_sport">
-            <div class="grid-11 product_name">
-                <h2>Esporte</h2>
-            </div>
-            <div class="grid-5 product_icon">
-                <img src="img/icone-esporte.svg" alt="ícone esporte">
-            </div>
-        </div>
-        <div class="container internal_product_retro">
-            <div class="grid-11 product_name">
-                <h2>Retrô</h2>
-            </div>
-            <div class="grid-5 product_icon">
-                <img src="img/icone-retro.svg" alt="ícone retrô">
-            </div>
-        </div>
+    <section class="copyright">
+      <div class="container">
+        <p class="grid-16">Bikcraft 2021 - Todos os direitos reservados</p>
+      </div>
     </section>
-    <section class="budget">
-        <div class="container">
-            <h2 class="subtitle">Orçamento</h2>
-                <form id="form_budget" class="grid-7 form">
-                    <label for="name">Nome</label>
-                    <input type="text" id="name" required>
-                    <label for="email">Email</label>
-                    <input type="text" id="email" required>
-                    <label for="phone">Telefone</label>
-                    <input type="text" id="phone" required>
-                    <label for="message">Especificações</label>
-                    <textarea name="message" id="message"></textarea>
-                    <button type="submit">Enviar</button>
-                </form>
-            <div class="grid-7 data_information">
-                <address>
-                    <h3>Dados</h3>
-                    <p id="phone">99 99999-9999</p>
-                    <p id="email">contato@gmail.com</p>
-                </address>
-                <h3>Monte sua bikcraft</h3>
-                <p>Escolha as especificações</p>
-                <ul>
-                    <li>Cores</li>
-                    <li>Estilo</li>
-                    <li>Acessórios</li>
-                    <li>Medidas</li>
-                    <li>E outros</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <section class="blockquote">
-        <blockquote class="quote">
-            <p>“O verdadeiro segredo da felicidade está em ter um genuinio interesse por todos os detalhes da vida cotidiana”</p>
-            <cite>William Morris</cite>
-        </blockquote>
-    </section>
-    <footer>
-        <section class="footer_information">
-            <div class="container">
-                <ul class="information_list">
-                    <li class="grid-8">
-                        <h3>Nossa história</h3>
-                        <p>Quando iniciamos a Bikcraft queriamos apenas um produto que adoraríamos utilizar. Eramos apaixonados por pedalar e também por fazer as coisas com as nossas próprias mãos. Assim surgiu um sonho na garagem da nossa casa.</p>
-                    </li>
-                    <li class="grid-4">
-                        <address>
-                            <h3>Contato</h3>
-                            <p id="phone">99 99999-9999</p>
-                            <p id="email">contato@gmail.com</p>
-                            <p id="address">Porto Alegre - RS</p>
-                        </address>
-                    </li>
-                    <li class="grid-4">
-                        <h3>Redes sociais</h3>
-                        <ul class="social_list">
-                            <li><a href="#" target="_blank"><img src="img/icone-instagram.svg" alt="ícone instagram"></a></li>
-                            <li><a href="#" target="_blank"><img src="img/icone-facebook.svg" alt="ícone facebook"></a></li>
-                            <li><a href="#" target="_blank"><img src="img/icone-twitter.svg" alt="ícone twitter"></a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="copyright">
-            <div class="container">
-                <p class="grid-16">Bikcraft 2021 - Todos os direitos reservados</p>
-            </div>
-        </section>
-    </footer>
+  </footer>
 </body>
 
 </html>
