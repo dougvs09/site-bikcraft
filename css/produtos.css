@@ -64,6 +64,55 @@ h2:before {
   padding: 50px 40px;
 }
 
+.product_photo {
+  margin-top: 20px;
+}
+
+.product_description {
+  height: 250px;
+  margin-top: 20px;
+  background-color: var(--preto);
+}
+
+.product_description p {
+  display: block;
+  width: 420px;
+  padding: 20px 0 0 30px;
+  font: 18px Georgia, 'Times New Roman', Times, serif;
+  line-height: 25px;
+  color: var(--branco);
+}
+
+.product_description ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 31px;
+}
+
+.product_description ul li {
+  font: bold 18px Arial, Helvetica, sans-serif;
+  line-height: 25px;
+  text-transform: uppercase;
+  background-color: var(--amarelo);
+  text-align: center;
+  padding-top: 15px;
+}
+
+.product_description ul li:nth-child(even) {
+  height: 50px;
+  width: 229px;
+  margin-left: 2px;
+}
+
+.product_description ul li:nth-child(odd) {
+  height: 50px;
+  width: 229px;
+}
+
+.product_description ul li:nth-child(1), .product_description ul li:nth-child(2) {
+  margin-bottom: 2px;
+}
+
 /*ORÇAMENTO*/
 .budget {
   height: 600px;
