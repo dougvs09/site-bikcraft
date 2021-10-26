@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/portfolio.css">
   <link rel="stylesheet" href="../css/responsivo.css">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -41,18 +42,38 @@
     </div>
   </header>
   <section class="internal_introduction">
-    <div class="container">
+    <div class="container" data-anime="400">
       <h1>Portólio</h1>
       <p>Saiba o que nossos clientes acham do nosso produto</p>
     </div>
   </section>
-  <blockquote class="container clients_quotes">
-    <p>“Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por esta
-      atividade. Recomendo à todos que amo.”</p>
-    <cite>Bárbara Moss</cite>
-  </blockquote>
-  <section class="internal_portfolio">
-    <div class="container">
+  <section class="container opinion fadeInDown" data-slide="quote" data-anime="800">
+    <blockquote class="clients_quotes">
+      <p>“Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo à todos que amo.”</p>
+      <cite>Bárbara Moss</cite>
+    </blockquote>
+    <blockquote class="clients_quotes">
+      <p>“Aqueles que ainda não possuem uma Bikcraft, não sabem o que estão perdendo. A precisão é absurda e a velocidade transcendental. Nunca vida nada igual.”</p>
+      <cite>Bernardo</cite>
+    </blockquote>
+    <blockquote class="clients_quotes">
+      <p>“Nada melhor do que dar um rolê com a minha Bikcraft na orla. Essa é a minha companheira mais fiel, nunca me traiu e está sempre a minha disposição.”</p>
+      <cite>Joãozinho</cite>
+    </blockquote>
+  </section>
+  <section class="internal_portfolio" data-anime="1200">
+    <div class="container" data-slide="portfolio">
+      <ul class="pictures_list">
+        <li class="grid-8">
+          <img src="../img/foto-portfolio-1.jpg" alt="foto portfólio">
+        </li>
+        <li class="grid-8">
+          <img src="../img/foto-portfolio-2.jpg" alt="foto portfólio">
+        </li>
+        <li class="grid-16">
+          <img src="../img/foto-portfolio-3.jpg" alt="foto portfólio">
+        </li>
+      </ul>
       <ul class="pictures_list">
         <li class="grid-8">
           <img src="../img/foto-portfolio-1.jpg" alt="foto portfólio">
@@ -109,5 +130,7 @@
     </section>
   </footer>
 </body>
-
+<script src="../js/simple-anime.js"></script>
+<script src="../js/simple-slide.js"></script>
+<script src="../js/script.js"></script>
 </html>

@@ -86,7 +86,7 @@ h2:before {
 .product_description ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 31px;
+  margin-top: 29px;
 }
 
 .product_description ul li {

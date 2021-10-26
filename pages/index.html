@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="../css/grid.css">
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/responsivo.css">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -41,18 +42,18 @@
   </header>
   <section class="introduction">
     <div class="container">
-      <h1>Bicicletas feitas à mão</h1>
-      <blockquote class="quote">
+      <h1 data-anime="400" class="fadeInDown">Bicicletas feitas à mão</h1>
+      <blockquote class="quote fadeInDown" data-anime="800">
         <p>“Não tenha nada em sua casa que você não considere útil ou acredita ser bonito”</p>
         <cite>William Morris</cite>
       </blockquote>
-      <a href="produtos.html" class="button_budget">Orçamento</a>
+      <a href="produtos.html" class="button_budget" data-anime="1200">Orçamento</a>
   </section>
-  <section class="container products">
+  <section class="container products fadeInDown" data-anime="1600">
     <h2 class="subtitle">Produtos</h2>
     <ul class="container_products">
       <li class="grid-1-3 product_tour">
-        <a href="#">
+        <a href="produtos.html">
           <img src="../img/icone-passeio.svg" alt="icone produto passeio">
           <div class="product_tour_description">
                 <h3>Passeio</h3>
@@ -61,7 +62,7 @@
         </a>
       </li>
       <li class="grid-1-3 product_sport">
-        <a href="#">
+        <a href="produtos.html">
           <img src="../img/icone-esporte.svg" alt="icone produto esporte">
           <div class="product_sport_description">
                 <h3>Esporte</h3>
@@ -70,7 +71,7 @@
         </a>
       </li>
       <li class="grid-1-3 product_retro">
-        <a href="#">
+        <a href="produtos.html">
           <img src="../img/icone-retro.svg" alt="icone produto retro">
           <div class="product_retro_description">
                 <h3>Retrô</h3>
@@ -166,5 +167,6 @@
     </section>
   </footer>
 </body>
-
+<script src="../js/simple-anime.js"></script>
+<script src="../js/script.js"></script>
 </html>

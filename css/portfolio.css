@@ -19,10 +19,14 @@ img {
 
 /*OPINIÃO DOS CLIENTES*/
 
+.opinion {
+  margin-top: 60px;
+}
+
 .clients_quotes {
   width: 460px;
   text-align: right;
-  margin-top: 60px;
+  margin: 0 auto;
 }
 
 .clients_quotes p {
