@@ -17,6 +17,8 @@ img {
   background-size: cover;
 }
 
+/*FORMULÁRIO DE CONTATO*/
+
 .form {
   margin-top: 60px;
 }
@@ -73,6 +75,8 @@ img {
   transition: 0.5s;
   cursor: pointer;
 }
+
+/*DADOS PARA CONTATO*/
 
 .contact {
   margin-left: 130px;

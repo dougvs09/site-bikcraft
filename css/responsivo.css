@@ -1,0 +1,131 @@
+:root {
+  --amarelo: #FEC63E;
+  --preto: #000;
+  --branco: #fff;
+}
+
+@media only screen and (max-width: 787px){
+  .header {
+    position: relative;
+  }
+
+  .menu_items .active {
+    border-color: var(--branco);
+  }
+
+  .header img {
+    margin: 0 auto;
+  }
+
+  .menu_items {
+    text-align: center;
+  }
+
+  .menu_items li {
+    display: block;
+    margin: 0;
+  }
+
+  .menu_items a {
+    border: 4px solid var(--preto);
+    width: 140px;
+    float: left;
+    margin: 0 5px 5px 0;
+  }
+
+  .menu_items a:hover {
+    border-color: var(--branco);
+  }
+
+  .introduction {
+    margin: 0;
+  }
+
+  .introduction h1 {
+    font: bold 36px Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: var(--branco);
+    margin-top: 50px;
+  }
+
+  .internal_introduction {
+    margin-top: 0;
+  }
+
+  .container_products {
+    margin-top: 20px;
+  }
+
+  .portfolio {
+    height: 780px;
+  }
+  
+  .quality img:nth-child(2) {
+    margin-bottom: 50px;
+  }
+
+  .quality img:nth-child(3) {
+    overflow: hidden;
+    max-width: 0px;
+  }
+
+  .quality_list li {
+    padding: 0 40px;
+    text-align: center;
+  }
+
+  .footer_information li {
+    padding: 5px 0;
+  }
+
+  /*SOBRE*/
+  .history {
+    height: auto;
+  }
+  
+  .values {
+    height: auto;
+  }
+
+  .quality img:nth-child(1) {
+    margin-bottom: 30px;
+  }
+
+  .quality img:nth-child(3) {
+    max-width: 0px;
+  }
+
+  /*PRODUTOS*/
+
+  .budget {
+    height: 1050px;
+  }
+
+  .data_information {
+    margin: 0px;
+    padding-top: 30px;
+  }
+
+  /*CONTATO*/
+
+  .contact {
+    margin-left: 0;
+    padding-top: 30px;
+  }
+
+  .mapa {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  /*PORTFÓLIO*/
+
+  .internal_portfolio {
+    height: 600px;
+  }
+
+  .clients_quotes {
+    width: 300px;
+  }
+}
