@@ -495,3 +495,13 @@ img {
   transform: none;
   transition: transform .8s, opacity .8s;
 }
+
+/*FORMULÁRIO*/
+
+#form_erro {
+  color: red;
+}
+
+#form_sucesso {
+  color: green;
+}

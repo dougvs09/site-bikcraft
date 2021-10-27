@@ -126,3 +126,9 @@ address {
 .mapa {
   margin-top: 60px;
 }
+
+.anti_spam {
+  visibility: hidden;
+  height: 0px;
+  position: absolute;
+}
