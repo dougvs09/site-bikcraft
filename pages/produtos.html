@@ -5,13 +5,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bikcraft - Produtos</title>
+  <title>Bikcraft - Produtos - Conheça nossos produtos</title>
+  <meta name="description" content="Conheça nossos produtos e peça logo sua bicicleta personalizada.">
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Bikcraft - Bicicletas Personalizadas"/>
+  <meta property="og:description" content="Conheça nossos produtos e peça logo sua bicicleta personalizada."/>
+  <meta property="og:url" content=""/>
+  <meta property="og:image" content="/img/og-image.png"/>
   <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/grid.css">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/produtos.css">
-  <link rel="stylesheet" href="../css/responsivo.css">
+  <link rel="stylesheet" href="../main.css">
   <script>document.documentElement.classList.add("js");</script>
 </head>
 
@@ -41,7 +43,7 @@
       </nav>
     </div>
   </header>
-  <section class="internal_introduction">
+  <section class="internal_introduction bg_products">
     <div class="container fadeInDown" data-anime="400">
       <h1>Produtos</h1>
       <p>Conhecça nossos produtos!</p>
@@ -112,22 +114,26 @@
   <section class="budget">
     <div class="container">
       <h2 class="subtitle">Orçamento</h2>
-      <form id="form_budget" class="grid-7 form">
+      <form action="../enviar.php" method="POST" id="form_budget" class="grid-7 form_products formphp">
         <label for="name">Nome</label>
-        <input type="text" id="name" required>
-        <label for="email">Email</label>
-        <input type="text" id="email" required>
-        <label for="phone">Telefone</label>
-        <input type="text" id="phone" required>
+        <input type="text" id="name" name="nome" required>
+        <label for="e-mail">Email</label>
+        <input type="email" id="e-mail" name="email" required>
+        <label for="contact">Telefone</label>
+        <input type="text" id="contact" name="telefone">
+        <label class="anti_spam">Se você não é um robô, deixe este campo em branco</label>
+        <input type="text" name="leaveblank" class="anti_spam">
+        <label class="anti_spam">Se você não é um robô, não mude este campo</label>
+        <input type="text" name="dontchange" class="anti_spam">
         <label for="message">Especificações</label>
-        <textarea name="message" id="message"></textarea>
-        <button type="submit">Enviar</button>
+        <textarea name="message" id="message" required></textarea>
+        <button id="enviar" name="enviar" type="submit">Enviar</button>
       </form>
       <div class="grid-7 data_information">
+        <h3>Dados</h3>
         <address>
-          <h3>Dados</h3>
-          <p id="phone">99 99999-9999</p>
-          <p id="email">contato@gmail.com</p>
+          <p class="phone">99 99999-9999</p>
+          <p class="email">contato@gmail.com</p>
         </address>
         <h3>Monte sua bikcraft</h3>
         <p>Escolha as especificações</p>
@@ -141,13 +147,13 @@
       </div>
     </div>
   </section>
-  <section class="blockquote">
+  <div class="blockquote">
     <blockquote class="quote">
       <p>“O verdadeiro segredo da felicidade está em ter um genuinio interesse por todos os detalhes da vida cotidiana”
       </p>
       <cite>William Morris</cite>
     </blockquote>
-  </section>
+  </div>
   <footer>
     <section class="footer_information">
       <div class="container">
@@ -159,11 +165,11 @@
               nossa casa.</p>
           </li>
           <li class="grid-4">
+            <h3>Contato</h3>
             <address>
-              <h3>Contato</h3>
-              <p id="phone">99 99999-9999</p>
-              <p id="email">contato@gmail.com</p>
-              <p id="address">Porto Alegre - RS</p>
+              <p class="phone">99 99999-9999</p>
+              <p class="email">contato@gmail.com</p>
+              <p class="address">Porto Alegre - RS</p>
             </address>
           </li>
           <li class="grid-4">
@@ -177,14 +183,14 @@
         </ul>
       </div>
     </section>
-    <section class="copyright">
+    <div class="copyright">
       <div class="container">
         <p class="grid-16">Bikcraft 2021 - Todos os direitos reservados</p>
       </div>
-    </section>
+    </div>
   </footer>
+  <script src="../js/simple-anime.js"></script>
+  <script src="../js/simple-form.js"></script>
+  <script src="../js/script.js"></script>
 </body>
-<script src="../js/simple-anime.js"></script>
-<script src="../js/simple-form.js"></script>
-<script src="../js/script.js"></script>
 </html>

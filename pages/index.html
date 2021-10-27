@@ -5,13 +5,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bikcraft</title>
+  <title>Bikcraft - Bicicletas Personalizadas</title>
+  <meta name="description"
+    content="Compre sua bicicleta personalizada na Bikcraft. Possuimos diversos modelos, como Passeio, Esporte e Retrô.">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Bikcraft - Bicicletas Personalizadas" />
+  <meta property="og:description"
+    content="Compre sua bicicleta personalizada na Bikcraft. Possuimos diversos modelos, como Passeio, Esporte e Retrô." />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="/img/og-image.png" />
   <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/grid.css">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/responsivo.css">
-  <script>document.documentElement.classList.add("js");</script>
+  <link rel="stylesheet" href="../main.css">
+  <script>
+    document.documentElement.classList.add("js");
+  </script>
 </head>
 
 <body>
@@ -48,6 +55,7 @@
         <cite>William Morris</cite>
       </blockquote>
       <a href="produtos.html" class="button_budget" data-anime="1200">Orçamento</a>
+    </div>
   </section>
   <section class="container products fadeInDown" data-anime="1600">
     <h2 class="subtitle">Produtos</h2>
@@ -56,8 +64,8 @@
         <a href="produtos.html">
           <img src="../img/icone-passeio.svg" alt="icone produto passeio">
           <div class="product_tour_description">
-                <h3>Passeio</h3>
-                <p>Muito melhor do que passear pela orla a vidros fechados. </p>
+            <h3>Passeio</h3>
+            <p>Muito melhor do que passear pela orla a vidros fechados. </p>
           </div>
         </a>
       </li>
@@ -65,8 +73,8 @@
         <a href="produtos.html">
           <img src="../img/icone-esporte.svg" alt="icone produto esporte">
           <div class="product_sport_description">
-                <h3>Esporte</h3>
-                <p>Mais rápida do que Forrest Gump, ninguém vai pegar você.</p>
+            <h3>Esporte</h3>
+            <p>Mais rápida do que Forrest Gump, ninguém vai pegar você.</p>
           </div>
         </a>
       </li>
@@ -74,8 +82,8 @@
         <a href="produtos.html">
           <img src="../img/icone-retro.svg" alt="icone produto retro">
           <div class="product_retro_description">
-                <h3>Retrô</h3>
-                <p>O passado volta para lembrarmos o que devemos fazer no futuro.</p>
+            <h3>Retrô</h3>
+            <p>O passado volta para lembrarmos o que devemos fazer no futuro.</p>
           </div>
         </a>
       </li>
@@ -122,13 +130,13 @@
     <p class="call_to_action">Clique aqui e conheça mais sobre a nossa história!</p>
     <a href="sobre.html" class="button_about">Sobre</a>
   </section>
-  <section class="blockquote">
+  <div class="blockquote">
     <blockquote class="quote">
       <p>“O verdadeiro segredo da felicidade está em ter um genuinio interesse por todos os detalhes da vida
         cotidiana”</p>
       <cite>William Morris</cite>
     </blockquote>
-  </section>
+  </div>
   <footer>
     <section class="footer_information">
       <div class="container">
@@ -140,33 +148,36 @@
               surgiu um sonho na garagem da nossa casa.</p>
           </li>
           <li class="grid-4">
+            <h3>Contato</h3>
             <address>
-              <h3>Contato</h3>
-              <p id="phone">99 99999-9999</p>
-              <p id="email">contato@gmail.com</p>
-              <p id="address">Porto Alegre - RS</p>
+              <p class="phone">99 99999-9999</p>
+              <p class="email">contato@gmail.com</p>
+              <p class="address">Porto Alegre - RS</p>
             </address>
           </li>
           <li class="grid-4">
             <h3>Redes sociais</h3>
             <ul class="social_list">
-              <li><a href="https://instagram.com" target="_blank"><img src="../img/icone-instagram.svg" alt="ícone instagram"></a></li>
-              <li><a href="https://facebook.com" target="_blank"><img src="../img/icone-facebook.svg" alt="ícone facebook"></a>
+              <li><a href="https://instagram.com" target="_blank"><img src="../img/icone-instagram.svg"
+                    alt="ícone instagram"></a></li>
+              <li><a href="https://facebook.com" target="_blank"><img src="../img/icone-facebook.svg"
+                    alt="ícone facebook"></a>
               </li>
-              <li><a href="https://twitter.com" target="_blank"><img src="../img/icone-twitter.svg" alt="ícone twitter"></a>
+              <li><a href="https://twitter.com" target="_blank"><img src="../img/icone-twitter.svg"
+                    alt="ícone twitter"></a>
               </li>
             </ul>
           </li>
         </ul>
       </div>
     </section>
-    <section class="copyright">
+    <div class="copyright">
       <div class="container">
         <p class="grid-16">Bikcraft 2021 - Todos os direitos reservados</p>
       </div>
-    </section>
+    </div>
   </footer>
+  <script src="../js/simple-anime.js"></script>
+  <script src="../js/script.js"></script>
 </body>
-<script src="../js/simple-anime.js"></script>
-<script src="../js/script.js"></script>
 </html>

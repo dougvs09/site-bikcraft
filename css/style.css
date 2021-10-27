@@ -398,19 +398,19 @@ img {
   padding: 15px 0;
 }
 
-#phone::before {
+.phone::before {
   content: url(../img/icone-telefone.svg);
   margin-right: 10px;
   vertical-align: middle;
 }
 
-#email::before {
+.email::before {
   content: url(../img/icone-email.svg);
   margin-right: 10px;
   vertical-align: middle;
 }
 
-#address::before {
+.address::before {
   content: url(../img/icone-endereco.svg);
   margin-right: 10px;
   vertical-align: middle;

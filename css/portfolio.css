@@ -12,7 +12,7 @@ img {
   color: var(--branco);
 }
 
-.internal_introduction {
+.bg_portfolio {
   background: url(../img/bg-header-portfolio.jpg) no-repeat center center;
   background-size: cover;
 }

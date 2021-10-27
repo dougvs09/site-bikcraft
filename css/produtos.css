@@ -12,7 +12,7 @@ img {
   color: var(--branco);
 }
 
-.internal_introduction {
+.bg_products {
   background: url(../img/bg-header-produtos.jpg) no-repeat center;
   background-size: cover;
 }
@@ -49,7 +49,7 @@ img {
 }
 
 .product_name h2::after,
-h2:before {
+.product_name h2:before {
   content: " ";
   display: block;
   width: 60px;
@@ -130,18 +130,18 @@ h2:before {
   margin: 10px auto 10px auto;
 }
 
-.form {
+.form_products {
   margin-top: 40px;
 }
 
-.form label {
+.form_products label {
   display: block;
   color: var(--branco);
   font: 18px Georgia, "Times New Roman", Times, serif;
   line-height: 25px;
 }
 
-.form input {
+.form_products input {
   width: 100%;
   display: block;
   background: none;
@@ -153,7 +153,7 @@ h2:before {
   color: var(--branco);
 }
 
-.form textarea {
+.form_products textarea {
   background: none;
   width: 100%;
   height: 130px;
@@ -165,7 +165,7 @@ h2:before {
   padding: 10px 7px;
 }
 
-.form button {
+.form_products button {
   border: 3px solid var(--amarelo);
   padding: 10px 30px;
   font: bold 14px Arial, Helvetica, sans-serif;
@@ -179,7 +179,7 @@ h2:before {
   float: right;
 }
 
-.form button:hover {
+.form_products button:hover {
   border-color: var(--branco);
   color: var(--amarelo);
   background-color: var(--branco);
@@ -206,8 +206,8 @@ h2:before {
   color: var(--branco);
 }
 
-#phone,
-#email {
+.phone,
+.email {
   font: normal 18px Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -234,4 +234,10 @@ h2:before {
   vertical-align: middle;
   color: var(--branco);
   padding-right: 5px;
+}
+
+.anti_spam {
+  visibility: hidden;
+  height: 0px;
+  position: absolute;
 }

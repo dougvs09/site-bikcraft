@@ -13,7 +13,7 @@ img {
 	color: var(--branco);
 }
 
-.internal_introduction {
+.bg_about {
 	background: url(../img/bg-header-sobre.jpg) no-repeat center;
 	background-size: cover;
 }

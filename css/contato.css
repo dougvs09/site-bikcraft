@@ -12,7 +12,7 @@ img {
   color: var(--branco);
 }
 
-.internal_introduction {
+.bg_contact {
   background: url(../img/bg-header-contato.jpg) no-repeat center;
   background-size: cover;
 }
@@ -96,25 +96,25 @@ address {
   line-height: 20px;
 }
 
-#phone_contact::before {
+.phone_contact::before {
   content: url(../img/icone-telefone-black.svg);
   margin-right: 10px;
   vertical-align: middle;
 }
 
-#email_contact::before {
+.email_contact::before {
   content: url(../img/icone-email-black.svg);
   margin-right: 10px;
   vertical-align: middle;
 }
 
-#address_contact::before {
+.address_contact::before {
   content: url(../img/icone-endereco-black.svg);
   margin-right: 10px;
   vertical-align: middle;
 }
 
-#address_contact {
+.address_contact {
   margin-bottom: 10px;
 }
 

@@ -6,12 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bikcraft - Sobre - Saiba mais sobre a gente</title>
+  <meta name="description" content="Conheça mais sobre nossa história.">
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Bikcraft - Bicicletas Personalizadas"/>
+  <meta property="og:description" content="Conheça mais sobre nossa história."/>
+  <meta property="og:url" content=""/>
+  <meta property="og:image" content="/img/og-image.png"/>
   <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/grid.css">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/sobre.css">
-  <link rel="stylesheet" href="../css/responsivo.css">
+  <link rel="stylesheet" href="../main.css">
   <script>document.documentElement.classList.add("js");</script>
 </head>
 
@@ -41,7 +43,7 @@
       </nav>
     </div>
   </header>
-  <section class="internal_introduction">
+  <section class="internal_introduction bg_about">
     <div class="container fadeInDown" data-anime="400">
       <h1>Sobre</h1>
       <p>Saiba mais sobre a nossa história</p>
@@ -95,13 +97,13 @@
       </li>
     </ul>
   </section>
-  <section class="blockquote">
+  <div class="blockquote">
     <blockquote class="quote">
       <p>“O verdadeiro segredo da felicidade está em ter um genuinio interesse por todos os detalhes da vida cotidiana”
       </p>
       <cite>William Morris</cite>
     </blockquote>
-  </section>
+  </div>
   <footer>
     <section class="footer_information">
       <div class="container">
@@ -113,11 +115,11 @@
               nossa casa.</p>
           </li>
           <li class="grid-4">
+            <h3>Contato</h3>
             <address>
-              <h3>Contato</h3>
-              <p id="phone">99 99999-9999</p>
-              <p id="email">contato@gmail.com</p>
-              <p id="address">Porto Alegre - RS</p>
+              <p class="phone">99 99999-9999</p>
+              <p class="email">contato@gmail.com</p>
+              <p class="address">Porto Alegre - RS</p>
             </address>
           </li>
           <li class="grid-4">
@@ -131,13 +133,13 @@
         </ul>
       </div>
     </section>
-    <section class="copyright">
+    <div class="copyright">
       <div class="container">
         <p class="grid-16">Bikcraft 2021 - Todos os direitos reservados</p>
       </div>
-    </section>
+    </div>
   </footer>
+  <script src="../js/simple-anime.js"></script>
+  <script src="../js/script.js"></script>
 </body>
-<script src="../js/simple-anime.js"></script>
-<script src="../js/script.js"></script>
 </html>
